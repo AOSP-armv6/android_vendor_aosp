@@ -16,3 +16,7 @@
 ifeq (aosp_cooper,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/aosp_cooper.mk
 endif
+
+ifeq (cm_cooper,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/aosp_cooper.mk
+endif
