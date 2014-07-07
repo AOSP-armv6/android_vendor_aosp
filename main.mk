@@ -13,7 +13,7 @@
 # limitations under the License.
 
 
-include vendor/pa/vendor.mk
+include vendor/aosp/vendor.mk
 include vendor/aosp/configs/aosp_fixes.mk
 include vendor/aosp/configs/system.mk
 include vendor/aosp/configs/version.mk
