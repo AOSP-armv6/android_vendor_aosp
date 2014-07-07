@@ -1,5 +1,5 @@
 # Export rom name
-export VENDOR := pa
+export VENDOR := aosp
 
 # Version info
 ROM_VERSION_MAJOR := 4
