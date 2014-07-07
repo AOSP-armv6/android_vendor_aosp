@@ -14,7 +14,7 @@
 # limitations under the License.
 
 # Check for target product
-ifneq ($(filter cm_cooper aosp_cooper,$(TARGET_PRODUCT)),)
+ifeq (aosp_cooper,$(TARGET_PRODUCT))
 
 # OVERLAY_TARGET adds overlay asset source
 OVERLAY_TARGET := aosp_mdpi
